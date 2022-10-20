@@ -6,7 +6,9 @@ import java.util.List;
 public class Store {
     private List<FlowerBucket> flowerBuckets = new ArrayList<FlowerBucket>();
 
-    public void add(FlowerBucket flowerBucket) { flowerBuckets.add(flowerBucket); }
+    public void add(FlowerBucket flowerBucket) { 
+        flowerBuckets.add(flowerBucket); 
+    }
 
     public boolean search(FlowerBucket flowerBucket) {
         for (FlowerBucket flowerBucketN:flowerBuckets) {
